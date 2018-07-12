@@ -367,10 +367,10 @@ chmod 775 /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
 rm /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
 cp /var/www/html/downloads/iptv_panel_pro.zip /tmp
 chmod a+x /tmp/iptv_panel_pro.zip
-#cp /var/www/html/downloads/install_iptv_pro.php /root/ #FSHIHET AUTOMATIKISHT MBAS INSTALIMIT
-#cd /root
-#chmod a+x /root/install_iptv_pro.php
-#php install_iptv_pro.php  #KJO ESHTE LULKUQJA
+cp /var/www/html/downloads/install_iptv_pro.php /root/ #FSHIHET AUTOMATIKISHT MBAS INSTALIMIT
+cd /root
+chmod a+x /root/install_iptv_pro.php
+php install_iptv_pro.php  #KJO ESHTE LULKUQJA
 echo " "
 #REPLACE CONFIG, ALL ORIGINAL FILES ARE BACKUP WITH END backup_by_TRC4
 echo -e "${jeshile} ┌─────────────────────────────────────────┐ \e[0m"
